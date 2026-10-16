@@ -1,0 +1,242 @@
+[
+  {
+    "file": "AppFunc/AppFunc.pri",
+    "status": "modified",
+    "v4_sha256": "9867704466957200c9fc3411423b6302d522f16e240e4a2e371f1660e0cf413a",
+    "v5_sha256": "cc581eac60bc9f34e55015f6483512ac1e083e122968e9b35b98559446f4c126"
+  },
+  {
+    "file": "AppFunc/corelogic.cpp",
+    "status": "modified",
+    "v4_sha256": "072ddd8f537f109fd80a63762bca8d5eda05167d42535ff7fd0a3fcefb93d20e",
+    "v5_sha256": "ba88d0f021331514b0d3d29a60c4a1206dd9e17db64ca9244b44c0cec8da4e65"
+  },
+  {
+    "file": "AppFunc/corelogic.h",
+    "status": "modified",
+    "v4_sha256": "ec37d6b059cb1e4935396def6729c57456e1c3f713f143d37084653263bc19b1",
+    "v5_sha256": "b309c1b95c502e9f04025b5df133e2b61cad8376fac83f35ee8feecc3088aa46"
+  },
+  {
+    "file": "AppFunc/object1commintf.cpp",
+    "status": "modified",
+    "v4_sha256": "787f89c27fd1e74cd68ea843d725968f812de5acaf78db1be216c4a94eafcc8c",
+    "v5_sha256": "694a649fa7b2192d97a0ba196f601e3535ceb7d3199eb9a1ee31a6b0594d9fd5"
+  },
+  {
+    "file": "AppFunc/object1commintf.h",
+    "status": "modified",
+    "v4_sha256": "51e77fc026ad65816e913a7de7d000807f08b793a2888dafe5b227c233296529",
+    "v5_sha256": "33dfd393a83dacb884c273bdfaf50fc52d2e5f59b5d78a04e04ead5cfe522836"
+  },
+  {
+    "file": "CommObj/CommObj.pri",
+    "status": "modified",
+    "v4_sha256": "2c6c1996e1fdb5948e7ca82c22e3a4076d0c93cb67bd48957ed2304f5ed3becd",
+    "v5_sha256": "90f04b3927fdb8037bf1cfe71e6a871dd3980c5aa81928cadb96698fd8e614d4"
+  },
+  {
+    "file": "CommObj/Object1/Object1.pri",
+    "status": "unchanged",
+    "v4_sha256": "94d565f1f5d98914e0ab7ead6365cbde4834c0fe81a3949a19e04bdd5f7594ba",
+    "v5_sha256": "94d565f1f5d98914e0ab7ead6365cbde4834c0fe81a3949a19e04bdd5f7594ba"
+  },
+  {
+    "file": "CommObj/Object1/object1.cpp",
+    "status": "modified",
+    "v4_sha256": "077669bbe3d05d03c841115f34dc522fb7c5e917928d413d7110fdee99a07c2f",
+    "v5_sha256": "ba21e13d33cd2a873e1caca0931c473aef986bab9698bfc3f47ff3d58937b568"
+  },
+  {
+    "file": "CommObj/Object1/object1.h",
+    "status": "modified",
+    "v4_sha256": "b14fef3405f306af2863468e27d9ecac5103cf7a731d3ec3fcc978470b6a14ff",
+    "v5_sha256": "5f2e521d5b1804b01263a0bd4003719c5691860d255dc819a91984c6b6d7643b"
+  },
+  {
+    "file": "CommObj/Object1/object2.cpp",
+    "status": "modified",
+    "v4_sha256": "27e028a6b63fd080928327fd99007e5b6e3f81f314898bcc9a252527ef83c579",
+    "v5_sha256": "83de3f3f35c6b12469c63b5ab431981e9b47be55ec9de6999f7346dcec562d2d"
+  },
+  {
+    "file": "CommObj/Object1/object2.h",
+    "status": "unchanged",
+    "v4_sha256": "eeadcda58fea2a6506f22851b3f14de3cb457241ce43b1d9b61f086d299d9045",
+    "v5_sha256": "eeadcda58fea2a6506f22851b3f14de3cb457241ce43b1d9b61f086d299d9045"
+  },
+  {
+    "file": "CommObj/commobj.cpp",
+    "status": "modified",
+    "v4_sha256": "3f6b692711d67f130980c33b306e0987ac30ddef7ef2e9c4a7a9ae69a8e45a52",
+    "v5_sha256": "e4d1637c5d3c555a50056550f2f70296b327de4e2e38905967ec429e154b63b9"
+  },
+  {
+    "file": "CommObj/commobj.h",
+    "status": "modified",
+    "v4_sha256": "872496ec2346f54ad002b02b5000a7dc0290be421a61b164fc41ee601366d8d2",
+    "v5_sha256": "7ea42ddc5ac6da664f4966b9a36174d7e1a4f2530522bc12e81b52e43d61bc31"
+  },
+  {
+    "file": "CommObj/modbusrtu.cpp",
+    "status": "unchanged",
+    "v4_sha256": "441e0949343737e0b86a03274518a190da6057bd5f0cc3d2835d1e35f7cb98ca",
+    "v5_sha256": "441e0949343737e0b86a03274518a190da6057bd5f0cc3d2835d1e35f7cb98ca"
+  },
+  {
+    "file": "CommObj/modbusrtu.h",
+    "status": "unchanged",
+    "v4_sha256": "b4810b0a4aa27f3df424ea99023ba9580a2b10a4c7d37a5e441e4ff9af309b64",
+    "v5_sha256": "b4810b0a4aa27f3df424ea99023ba9580a2b10a4c7d37a5e441e4ff9af309b64"
+  },
+  {
+    "file": "CommObj/qmainmodbusrtu.cpp",
+    "status": "modified",
+    "v4_sha256": "d39b103c3f8286ce4e541fbc377c7e838a46207c99272d71f832bc128b4be1c7",
+    "v5_sha256": "9203e5b4fa2bca14658b9daf9697782c67f5440a3cc0659ce5bcb7b81fa08d79"
+  },
+  {
+    "file": "CommObj/qmainmodbusrtu.h",
+    "status": "modified",
+    "v4_sha256": "389c37eea393f1b56be73b584432097de07786717c5961990307be0747dc607e",
+    "v5_sha256": "0988f2f1f0f51714ea51d645bea24bb95eeeda997b530a1fd2171b05a253462d"
+  },
+  {
+    "file": "ComnUtils/ComnUtils.pri",
+    "status": "unchanged",
+    "v4_sha256": "960d05ab346adc8b930d61c345dbb950cf7cfda988b2de81cb6a21d62420a9e8",
+    "v5_sha256": "960d05ab346adc8b930d61c345dbb950cf7cfda988b2de81cb6a21d62420a9e8"
+  },
+  {
+    "file": "ComnUtils/SerialComm/SerialComm.pri",
+    "status": "unchanged",
+    "v4_sha256": "64e51102af8c6d41ec6c575dd9bc8c6dc06af49e6b3242dcccaed905650430e7",
+    "v5_sha256": "64e51102af8c6d41ec6c575dd9bc8c6dc06af49e6b3242dcccaed905650430e7"
+  },
+  {
+    "file": "ComnUtils/SerialComm/extserialport.cpp",
+    "status": "modified",
+    "v4_sha256": "3b68953536c74cfd72e9ef2f5548a2eca4bd37089a3d03a8eb9118026eb16a24",
+    "v5_sha256": "860d272e2b41e8a85ac00d7484925535fef907b96144dd2eecdb225d4a600dd5"
+  },
+  {
+    "file": "ComnUtils/SerialComm/extserialport.h",
+    "status": "modified",
+    "v4_sha256": "7763c370d1743fc204e8b38fcd259692c202ac50fa2e8510adee8949ca86353e",
+    "v5_sha256": "824ebd955db6a4830acaf270f938e1ffb6aa9a1650f5e709719d5118ddd6429f"
+  },
+  {
+    "file": "ComnUtils/SerialComm/qextserialenumerator.h",
+    "status": "unchanged",
+    "v4_sha256": "176dd3169a772673a4ea52d745bc84f2000bd9b0826cf85686a37e60245981a3",
+    "v5_sha256": "176dd3169a772673a4ea52d745bc84f2000bd9b0826cf85686a37e60245981a3"
+  },
+  {
+    "file": "ComnUtils/SerialComm/qextserialport.h",
+    "status": "unchanged",
+    "v4_sha256": "6a5fe7a898ef3185e5c20ff47b68399be2229d61af5dd8f7e4e5bd3a4ad3c8bf",
+    "v5_sha256": "6a5fe7a898ef3185e5c20ff47b68399be2229d61af5dd8f7e4e5bd3a4ad3c8bf"
+  },
+  {
+    "file": "ComnUtils/SerialComm/qextserialport_global.h",
+    "status": "unchanged",
+    "v4_sha256": "7bea8e2a1aff5945fda031711901ca0bae52c7c43a333e2c955049c759bf6f11",
+    "v5_sha256": "7bea8e2a1aff5945fda031711901ca0bae52c7c43a333e2c955049c759bf6f11"
+  },
+  {
+    "file": "ComnUtils/SingleApp/SingleApp.pri",
+    "status": "unchanged",
+    "v4_sha256": "91520bc5397ccb734a49f30b5d6e1b4838b37375387138aaf7df7cfc2531c65b",
+    "v5_sha256": "91520bc5397ccb734a49f30b5d6e1b4838b37375387138aaf7df7cfc2531c65b"
+  },
+  {
+    "file": "ComnUtils/SingleApp/qtsingleapplication.cpp",
+    "status": "modified",
+    "v4_sha256": "9be1dd86f1f79ec902168dd8a73d5cea671eee669b85a41caf3266d5f6219a28",
+    "v5_sha256": "79783e0dd24d7ca04150c484c8655a515d096373c74bbccf723a1c203b588403"
+  },
+  {
+    "file": "ComnUtils/SingleApp/qtsingleapplication.h",
+    "status": "unchanged",
+    "v4_sha256": "f3f2c55d7baf4d3f2bde78fd42e4e67bc37a0f412c58a28c6044a2140f2e2e58",
+    "v5_sha256": "f3f2c55d7baf4d3f2bde78fd42e4e67bc37a0f412c58a28c6044a2140f2e2e58"
+  },
+  {
+    "file": "ConfigInfo/ConfigInfo.pri",
+    "status": "modified",
+    "v4_sha256": "6296c2bc21494ea04058c53a60240bfdd93c19f293d5eeedbcdcae83cf313cca",
+    "v5_sha256": "a8fb0ef9b33078c07541b0cf400dd84a6b461e9cf7a6235fa9e31afe324cb5e4"
+  },
+  {
+    "file": "ConfigInfo/appcfginfo.cpp",
+    "status": "modified",
+    "v4_sha256": "6b9ebb7f5f9f7b5204cf5bb11f77105644a2dc663bde14e9643fb580861fa6df",
+    "v5_sha256": "eae3279fbf1729124814b0da5c7c141c5533b3212b57a2d94083fdd2b9206ade"
+  },
+  {
+    "file": "ConfigInfo/appcfginfo.h",
+    "status": "modified",
+    "v4_sha256": "d9b89d87315d1d8da62a5318facb11a3031e1c4b54966f00e0e75d1c9aa7cc23",
+    "v5_sha256": "c8e095dcb03c6faac9dd629c3055f2d958c9dbf7fe020c96eb9da14a8da0a449"
+  },
+  {
+    "file": "MyOverFlow.pro",
+    "status": "modified",
+    "v4_sha256": "37d4de36cb0a9b7f2e91184c766c515f0299b2cbb4f635851534fbc401575d8f",
+    "v5_sha256": "e80ee7f9ac3ccb7df8e293823892a486d9afcdee3c26341cfa1372cbc164488d"
+  },
+  {
+    "file": "UserIntf/UserIntf.pri",
+    "status": "modified",
+    "v4_sha256": "c15175c12a046c7055f797b2219ffceb14f17290d75d314ea3c3da26a49e20ca",
+    "v5_sha256": "3fd1ca8c6fa6eb7416a27aad06fad4b092ea8ae46c4ccd5fad54d7462c12d0f6"
+  },
+  {
+    "file": "UserIntf/dialogconfigdev.cpp",
+    "status": "modified",
+    "v4_sha256": "21fa09f6a8e58f95fe8011262ce498df9dc76987ef09d2779d265e810fed472d",
+    "v5_sha256": "01bbc4fcd4edea8da93ee5414c923a4f651e744a60bdc9447e17fff6c4f1a9ff"
+  },
+  {
+    "file": "UserIntf/dialogconfigdev.h",
+    "status": "modified",
+    "v4_sha256": "a9a08b2ff208dcfa1e531440bc3690907f34e356f5fd994b1540263b625c0294",
+    "v5_sha256": "6f55b397916a349bb9d3d212fa34d954f0d4a93c8371b98f0b975b96923276d8"
+  },
+  {
+    "file": "UserIntf/dialogconfigdev.ui",
+    "status": "modified",
+    "v4_sha256": "ff22baf02ce7533cb03cf2d84aa9b5a11ad04ea8d42b7265a035272b477e264d",
+    "v5_sha256": "11fc902f50621d1f1da8270c999d0e9ce8e07a4a500795addf5c35b88a4b1745"
+  },
+  {
+    "file": "UserIntf/mainwindow.cpp",
+    "status": "modified",
+    "v4_sha256": "a63ba54172fb5b1cd8782710b93cef3bf09fca66d2a657bc4a627e3e366365f5",
+    "v5_sha256": "11b23c983ee45459c3f8d3b2887ae62e9a5b74c8139851af7a9556f5af0fd879"
+  },
+  {
+    "file": "UserIntf/mainwindow.h",
+    "status": "modified",
+    "v4_sha256": "120b710dc38df16617671f23ebb3687c0dfdc410c0ed50879550787034c0d8c6",
+    "v5_sha256": "722d76c4ca0ca2d3ec59b7e2b9c4bde61109f62dcfab786e8d2414b94d257208"
+  },
+  {
+    "file": "UserIntf/mainwindow.ui",
+    "status": "modified",
+    "v4_sha256": "f8e4d84c2b9c72c9716f765c14caa87961de12bd08513767e3617e69aa9d23e0",
+    "v5_sha256": "8e4da4f18c25dbcf8907697c41e7f2f4bc03f43ddf3f96046cc0aa0b0cf87c31"
+  },
+  {
+    "file": "configInfo.ini",
+    "status": "modified",
+    "v4_sha256": "34d968188336819151de47fe068089466a1772cc07e7a1cf85a3283302d49025",
+    "v5_sha256": "8f1eb0406a1a9edfbde95a6bd95f56159cd382213c3da9aa32cee1dc5ab6f237"
+  },
+  {
+    "file": "main.cpp",
+    "status": "modified",
+    "v4_sha256": "fc4aa778833e5e1b11ee5b22f5c81526d1fe4a3237922238c45608636660c1ca",
+    "v5_sha256": "8692fc8167415524f0dc06a431d2deffba32e0688e73acec073ef7af8a29d3e4"
+  }
+]

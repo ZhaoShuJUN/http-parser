@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+  <class>DialogConfigDev</class>
+  <widget class="QDialog" name="DialogConfigDev">
+    <property name="windowTitle">
+      <string>设备与系统配置</string>
+    </property>
+    <layout class="QVBoxLayout" name="rootLayout">
+      <item>
+        <widget class="QLabel" name="labelConfigTip">
+          <property name="text">
+            <string>保留原 INI 配置方式。保存后重启生效。倍率、单位及阈值须按厂家手册和现场规范确认。</string>
+          </property>
+        </widget>
+      </item>
+      <item>
+        <widget class="QTabWidget" name="tabWidget">
+          <widget class="QWidget" name="uartPage">
+            <attribute name="title">
+              <string>串口</string>
+            </attribute>
+            <layout class="QVBoxLayout" name="uartPageLayout">
+              <item>
+                <widget class="QLabel" name="uartPageLabel">
+                  <property name="text">
+                    <string>数量（编辑后回车；串口 1..8，传感器 1..200）：</string>
+                  </property>
+                </widget>
+              </item>
+              <item>
+                <widget class="QLineEdit" name="lineEditUart" />
+              </item>
+              <item>
+                <widget class="QTableView" name="tableViewUart" />
+              </item>
+            </layout>
+          </widget>
+          <widget class="QWidget" name="devicePage">
+            <attribute name="title">
+              <string>传感器</string>
+            </attribute>
+            <layout class="QVBoxLayout" name="devicePageLayout">
+              <item>
+                <widget class="QLabel" name="devicePageLabel">
+                  <property name="text">
+                    <string>数量（编辑后回车；串口 1..8，传感器 1..200）：</string>
+                  </property>
+                </widget>
+              </item>
+              <item>
+                <widget class="QLineEdit" name="lineEditDev" />
+              </item>
+              <item>
+                <widget class="QTableView" name="tableViewDev" />
+              </item>
+            </layout>
+          </widget>
+          <widget class="QWidget" name="reportPage">
+            <attribute name="title">
+              <string>遥测/遥信映射</string>
+            </attribute>
+            <layout class="QVBoxLayout" name="reportLayout">
+              <item>
+                <widget class="QLabel" name="labelMeas">
+                  <property name="text">
+                    <string>遥测及遥信由传感器缓存按索引生成，可在传感器页设置 MQTT 属性名。</string>
+                  </property>
+                </widget>
+              </item>
+              <item>
+                <widget class="QLineEdit" name="lineEditMeas" />
+              </item>
+              <item>
+                <widget class="QTableView" name="tableViewMeas" />
+              </item>
+              <item>
+                <widget class="QLineEdit" name="lineEditLetter" />
+              </item>
+              <item>
+                <widget class="QTableView" name="tableViewLetter" />
+              </item>
+            </layout>
+          </widget>
+          <widget class="QWidget" name="cameraPage">
+            <attribute name="title">
+              <string>摄像头</string>
+            </attribute>
+          </widget>
+          <widget class="QWidget" name="mqttPage">
+            <attribute name="title">
+              <string>MQTT 网关</string>
+            </attribute>
+          </widget>
+          <widget class="QWidget" name="recordingPage">
+            <attribute name="title">
+              <string>循环录像</string>
+            </attribute>
+          </widget>
+          <widget class="QWidget" name="gbPage">
+            <attribute name="title">
+              <string>GB28181</string>
+            </attribute>
+          </widget>
+        </widget>
+      </item>
+      <item>
+        <widget class="QDialogButtonBox" name="buttonBox">
+          <property name="standardButtons">
+            <set>QDialogButtonBox::Cancel|QDialogButtonBox::Save</set>
+          </property>
+        </widget>
+      </item>
+    </layout>
+  </widget>
+  <resources />
+  <connections />
+</ui>

@@ -1,0 +1,18 @@
+********* Start testing of MonitorTests *********
+Config: Using QtTest library 5.15.15, Qt 5.15.15 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 14.2.0), debian 13
+PASS   : MonitorTests::initTestCase()
+PASS   : MonitorTests::modbusWireAndDecode()
+PASS   : MonitorTests::originalMasterInterfaces()
+PASS   : MonitorTests::iniRoundTripAndValidation()
+PASS   : MonitorTests::cacheAlarmAndLegacyArrays()
+PASS   : MonitorTests::cacheThreadSafety()
+PASS   : MonitorTests::gatewayMappingCompatibility()
+PASS   : MonitorTests::databaseRetryAndQuery()
+PASS   : MonitorTests::mediaPacketsAndRetention()
+PASS   : MonitorTests::originalCoreLifecycleAndHmi()
+PASS   : MonitorTests::legacyDatabaseMigration()
+QWARN  : MonitorTests::originalSettingsDialog() This plugin does not support propagateSizeHints()
+PASS   : MonitorTests::originalSettingsDialog()
+PASS   : MonitorTests::cleanupTestCase()
+Totals: 13 passed, 0 failed, 0 skipped, 0 blacklisted, 2509ms
+********* Finished testing of MonitorTests *********
