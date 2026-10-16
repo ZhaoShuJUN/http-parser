@@ -1,0 +1,3 @@
+PASS: 8 RTU buses (noise/bad CRC/fragmentation/retry), SQLite alarm/recovery,
+HTTP auth, MQTT QoS1 + reconnect/topology, ISAPI alarm preset, SIP Digest/catalog/
+INVITE/ACK/BYE, PS/RTP -> ffprobe H.264 160x120, 8 RTSP camera recordings. Counts: {'auth': 2, 'mqtt': 2, 'topo': 2, 'datas': 9, 'ptz': 72, 'register': 1, 'catalog': 1, 'rtp': 505, 'bye': 1, 'serial': [64, 64, 64, 64, 64, 64, 64, 64]}

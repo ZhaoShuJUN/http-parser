@@ -1,0 +1,13 @@
+********* Start testing of CoreTests *********
+Config: Using QtTest library 5.15.15, Qt 5.15.15 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 14.2.0), debian 13
+PASS   : CoreTests::initTestCase()
+PASS   : CoreTests::crcAndRequest()
+PASS   : CoreTests::decode()
+PASS   : CoreTests::alarmLifecycle()
+PASS   : CoreTests::parser()
+PASS   : CoreTests::databaseBusyRecovery()
+PASS   : CoreTests::packets()
+PASS   : CoreTests::retention()
+PASS   : CoreTests::cleanupTestCase()
+Totals: 9 passed, 0 failed, 0 skipped, 0 blacklisted, 1926ms
+********* Finished testing of CoreTests *********

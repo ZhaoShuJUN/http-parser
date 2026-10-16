@@ -1,0 +1,4 @@
+PASS: Qt video probe decoded local RTSP H.264 frames
+PASS: 8 RTU buses (noise/bad CRC/fragmentation/retry), SQLite alarm/recovery,
+HTTP auth, MQTT QoS0 + reconnect/topology, ISAPI alarm preset, SIP Digest/catalog/
+INVITE/ACK/BYE, PS/RTP -> ffprobe H.264 160x120, 8 RTSP camera recordings. Counts: {'auth': 2, 'mqtt': 2, 'topo': 2, 'datas': 9, 'ptz': 64, 'register': 1, 'catalog': 1, 'rtp': 505, 'bye': 1, 'serial': [62, 61, 62, 62, 61, 62, 62, 62]}

@@ -1,0 +1,21 @@
+gcc -D_DEFAULT_SOURCE -O2 -g -Wall -Wextra -Wpedantic -std=c11 -pthread -Itests/mock -Isrc src/main.c src/auth.c src/net.c src/json.c tests/mock/mock_mosquitto.c -o tests/iot_gateway_mock -pthread
+python3 tests/test_gateway.py --exe tests/iot_gateway_mock
+PASS: HTTP auth, MQTT, topology, batch, discrete, CRC, split frames, length reject, CFG_CHG, reconnect, live topology updates
+[2026-10-15 07:01:27.793] [INFO] start uart=/dev/pts/0 baud=115200 http=127.0.0.1:40189
+[2026-10-15 07:01:27.793] [INFO] serial opened /dev/pts/0
+[2026-10-15 07:01:27.793] [INFO] UART CFG_REQ (0x85) sent
+[2026-10-15 07:01:27.795] [INFO] HTTP auth ok gatewayId=gw-test-001 MQTT=127.0.0.1:43325
+[2026-10-15 07:01:27.795] [INFO] MQTT network loop started; keepalive=60 qos=1
+[2026-10-15 07:01:27.795] [INFO] MQTT CONNACK accepted, qos=1
+[2026-10-15 07:01:27.944] [INFO] CFG_RSP accepted, devices=5
+[2026-10-15 07:01:27.996] [DEBUG] MCU HEART received
+[2026-10-15 07:01:27.996] [INFO] MCU configuration changed
+[2026-10-15 07:01:27.996] [INFO] UART CFG_REQ (0x85) sent
+[2026-10-15 07:01:27.996] [WARN] MQTT unexpected disconnect rc=7; reconnect is managed by libmosquitto
+[2026-10-15 07:01:28.497] [INFO] MQTT CONNACK accepted, qos=1
+[2026-10-15 07:01:28.560] [INFO] CFG_RSP accepted, devices=30
+[2026-10-15 07:01:28.620] [INFO] MQTT intentionally disconnected
+[2026-10-15 07:01:28.620] [INFO] net stats: pending_ram=0 confirmed_by_callback=4 dropped=0 topo_chunks=5 connections=2
+[2026-10-15 07:01:28.620] [INFO] uart stats: valid=8 bad_crc_or_length=2 bad_json=0 queue_rejected=0
+
+rm -f tests/iot_gateway_mock

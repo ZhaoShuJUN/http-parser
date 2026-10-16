@@ -1,0 +1,11 @@
+build*/
+runtime/
+*.pro.user*
+.qmake.stash
+Makefile*
+*.o
+moc_*
+ui_*.h
+__pycache__/
+*.sqlite*
+*.log

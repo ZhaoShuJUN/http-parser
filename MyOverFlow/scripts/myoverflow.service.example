@@ -1,0 +1,22 @@
+# Deployment template only; adjust user, Qt display backend and all paths on the board.
+[Unit]
+Description=MyOverFlow environmental monitor
+After=network-online.target graphical.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=monitor
+WorkingDirectory=/opt/MyOverFlow
+EnvironmentFile=/etc/myoverflow/credentials.env
+# X11 example; set the matching display/session authentication on your board.
+Environment=QT_QPA_PLATFORM=xcb
+Environment=DISPLAY=:0
+ExecStart=/opt/MyOverFlow/build/MyOverFlow --config /opt/MyOverFlow/config/monitor.json
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=45
+UMask=0077
+
+[Install]
+WantedBy=graphical.target
